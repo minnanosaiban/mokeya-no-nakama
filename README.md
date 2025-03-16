@@ -1,1 +1,0 @@
-# mokeya-no-nakama
