@@ -89,6 +89,9 @@
   margin: 0 .4rem 0;
   padding-top: 0;
 }
+.md-tabs__link:hover { /* タブのホバー色 */
+  color: var(--md-typeset-a-color);
+}
 .md-sidebar {
   width: 17rem; /* サイドバーの幅調整 */
 }
@@ -101,9 +104,6 @@
 .md-sidebar__scrollwrap {
   scrollbar-color: var(--md-primary-fg-color) #0000;
   scrollbar-width: 1px !important;
-}
-.md-tabs__link:hover {
-  color: var(--md-typeset-a-color);
 }
 @media only screen and (max-width: 767px) {
   .md-sidebar {
@@ -128,37 +128,14 @@
     padding-left: 0;
   }
 }
-/* グリッドカード */
-.cards li:hover {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1) !important;
-}
-.cards.center > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-@media only screen and (max-width: 767px) {
-  .cards.center > div {
-    text-align: left;
-    justify-content: flex-start;
-  }
-}
-.cards.left > div {
-  text-align: left;
-}
-@media only screen and (max-width: 767px) {
-  .cards.center > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-  }
-}
 @media only screen and (max-width: 767px) {
   div.margin-note {
     display: none;
     }
+}
+/* グリッドカード */
+.cards li:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1) !important;
 }
 /* シェアボタン */
 .bdg-dark {
@@ -171,7 +148,7 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   color: #FFFFFF !important;
   background-color: #000000;
 } 
