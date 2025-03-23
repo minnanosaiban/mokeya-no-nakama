@@ -46,7 +46,6 @@
 .md-typeset h2 {
   font-size: 2.4rem !important;
   line-height: 1.4 !important;
-  margin-top: 6rem !important;
   text-align: center;
   color: var(--md-default-fg-color--light);
 }
@@ -54,7 +53,6 @@
   .md-typeset h2 {
     font-size: 1.8rem !important;
     line-height: 1.4 !important;
-    margin-top: 4rem !important;
     text-align: center;
   }
 }
@@ -91,6 +89,7 @@
 }
 .md-tabs__link:hover { /* タブのホバー色 */
   color: var(--md-typeset-a-color);
+  font-weight: 700;
 }
 .md-sidebar {
   width: 17rem; /* サイドバーの幅調整 */
@@ -101,7 +100,7 @@
 .md-sidebar__inner { /* サイドバーの横スクロールを隠す */
   overflow: hidden !important;
 }
-.md-sidebar__scrollwrap {
+.md-sidebar__scrollwrap { /* サイドバーの横スクロールの色を薄くする */
   scrollbar-color: var(--md-primary-fg-color) #0000;
   scrollbar-width: 1px !important;
 }
