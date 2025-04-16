@@ -1,0 +1,157 @@
+/* カラー定義 */
+[data-md-color-scheme="default"] {
+  --md-typeset-color: #2E404d; /* テキストカラー*/
+  --md-primary-fg-color: #efefef; /* ヘッダー */
+  --md-typeset-a-color: #0068b7; /* リンクカラー */
+  --md-accent-fg-color: #8bb6d6; /* アクセントカラー */
+  --md-footer-bg-color--dark: #efefef; /* フッター */
+  --md-footer-fg-color--light: #2E404d; /* フッターテキスト１ */
+  --md-footer-fg-color--lighter: #2E404d; /* フッターテキスト２ */
+}
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #E0E0E0; /* テキストカラー*/
+  --md-primary-fg-color: #070f26 !important; /* ヘッダー */
+  --md-typeset-a-color: #0068b7; /* リンクカラー */
+  --md-accent-fg-color: #8bb6d6; /* アクセントカラー */
+  --md-footer-bg-color--dark: #070f26; /* フッター */
+  --md-footer-fg-color--light: var(--md-default-fg-color--light); /* フッターテキスト１ */
+  --md-footer-fg-color--lighter: var(--md-default-fg-color--light); /* フッターテキスト２ */
+}
+/* フォント */
+:root {
+  --md-text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         "Helvetica Neue", Arial, sans-serif,
+                         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+/* センタリング */
+.md-typeset h1 {
+  font-size: 2.4rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6rem !important;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+@media only screen and (max-width: 767px) {
+  .md-typeset h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 4rem !important;
+    text-align: center;
+  }
+}
+.md-typeset h2 {
+  font-size: 2.4rem !important;
+  line-height: 1.4 !important;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+@media only screen and (max-width: 767px) {
+  .md-typeset h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.4 !important;
+    text-align: center;
+  }
+}
+.center {
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .center {
+    text-align: center;
+  }
+}
+.center-h {
+  margin-right: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 17rem);
+}
+@media only screen and (max-width: 767px) {
+  .center-h {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* 画面調整 */
+.md-content { 
+  flex-grow: 1;
+  min-width: 0;
+  margin-bottom: 4rem; /* ボトム調整 */
+}
+.md-content__inner {  /* 画面余白調整 */
+  margin: 0 .4rem 0;
+  padding-top: 0;
+}
+.md-tabs__item--active .md-tabs__link {
+  color: #007799 !important;
+  font-weight: 700;
+}
+.md-tabs__link:hover { /* タブのホバー色 */
+  color: var(--md-typeset-a-color);
+  font-weight: 700;
+}
+.md-sidebar {
+  width: 17rem; /* サイドバーの幅調整 */
+}
+.md-nav__list {  /* サイドバーのテキストが降り曲がらないようにする */
+  width: 16.4rem;
+}
+.md-sidebar__inner { /* サイドバーの横スクロールを隠す */
+  overflow: hidden !important;
+}
+.md-sidebar__scrollwrap { /* サイドバーの横スクロールの色を薄くする */
+  scrollbar-color: var(--md-primary-fg-color) #0000;
+  scrollbar-width: 1px !important;
+}
+@media only screen and (max-width: 767px) {
+  .md-sidebar {
+    width: 12.1rem;
+  }
+  .md-nav__list {
+    width: auto;
+    max-width: 100%; /* 画面幅に合わせて調整 */
+  }
+}
+/* 注釈ディレクティブ */
+.margin-note {
+  float: right;
+  width: 17rem;
+  font-size: 0.85em;
+  padding-left: 9rem;
+}
+@media only screen and (max-width: 767px) {
+  .margin-note {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  div.margin-note {
+    display: none;
+    }
+}
+/* グリッドカード */
+.cards li:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1) !important;
+}
+/* シェアボタン */
+.bdg-dark {
+  display: inline-block;
+  margin: 0;
+  padding: .35em .65em;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #FFFFFF !important;
+  background-color: #000000;
+} 
+.bdg-dark:hover {
+  background-color: #707070;
+  color: #FFFFFF;
+}
