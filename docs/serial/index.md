@@ -25,7 +25,7 @@ comments: false
 </h1>
 
 <h2 class="center-h">
-パワハラのハラさん
+連載まんが<br>「パワハラのハラさん」
 </h2>
 
 <div class="grid cards center-h center" markdown>
@@ -43,6 +43,7 @@ comments: false
 - [第十一章<br>逆パワハラ](001-hara-san-11)
 - [第十二章<br>一人ぼっちの月野](001-hara-san-12)
 - [第十三章<br>私達は逆らえない](001-hara-san-13)
+- [第十四章<br>１人で抱え込まない](001-hara-san-14)
 
 </div>
 

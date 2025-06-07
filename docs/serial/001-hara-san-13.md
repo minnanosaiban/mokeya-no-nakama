@@ -20,6 +20,8 @@ comments: false
   </a>
 </p>
 
+連載まんが「パワハラのハラさん」
+
 <h1 class="center-h">
 第十三章<br>私達は逆らえない
 </h1>

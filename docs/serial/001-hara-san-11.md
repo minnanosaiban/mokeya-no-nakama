@@ -20,6 +20,8 @@ comments: false
   </a>
 </p>
 
+連載まんが「パワハラのハラさん」
+
 <h1 class="center-h">
 第十一章<br>逆パワハラ
 </h1>

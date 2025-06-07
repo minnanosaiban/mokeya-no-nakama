@@ -20,6 +20,8 @@ comments: false
   </a>
 </p>
 
+連載まんが「パワハラのハラさん」
+
 <h1 class="center-h">
 第十二章<br>一人ぼっちの月野
 </h1>
